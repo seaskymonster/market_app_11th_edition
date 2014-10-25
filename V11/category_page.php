@@ -55,7 +55,7 @@ $visitorID=$_SESSION['visitorID'];
 										      <div class="product_box">
 											          <a href="item_page.php?productID=<?php echo htmlspecialchars($row['productID']);?>"><h1><?php echo htmlspecialchars($row['productname']);?></h1></a>
 													  <div class="product_pic">
-													           <a href="item_page.php?productID=<?php echo htmlspecialchars($row['productID']);?>"><img src="<?php echo htmlspecialchars($row['productimage']);?>" alt="" width="150" height="109"></a>
+													           <a href="item_page.php?productID=<?php echo htmlspecialchars($row['productID']);?>"><img src="<?php echo $row['productimage'];?>" alt="" width="150" height="109"></a>
 													 </div>
 													 <div class="product_info">
 													         <?php echo htmlspecialchars(substr($row['productdescription'],0,55));echo'...';?>
@@ -69,12 +69,12 @@ $visitorID=$_SESSION['visitorID'];
 													</div>
 											        </div>
 											 <div class="clear">
-											    &nbsq;
+						
 											 </div>
 										    </div>
 								             <?php } mysql_close($con);?>
 								              <div class="clear">
-								               &nbsq;
+								              
 							                 </div>
 								      </div>
 									  <div>

@@ -1,5 +1,5 @@
 body {
-	background-image: url(images/main.jpg);
+	
 	background-color: white;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 15px;
@@ -13,7 +13,8 @@ body {
 	width: 1250px;
 	height: auto;
 	margin: auto;
-	background-image: url(images/sand.jpg);
+	paddding:50px;
+    background-image: url(images/main.jpg);
 	background-color:white;
 	padding: 5px;
 }
@@ -139,7 +140,7 @@ a.nav1:hover, a.nav2:hover, a.nav3:hover, a.nav4:hover, a.nav5:hover {
 /***** start of main*****/
 #main {
 	padding: 20px;
-	background-image: url(images/main.jpg);
+	
 	background-color:##191970;
 	
 }
@@ -152,7 +153,7 @@ a.nav1:hover, a.nav2:hover, a.nav3:hover, a.nav4:hover, a.nav5:hover {
 #search_box {
 	border: solid 1px #1E90FF;
 	background-color: white;
-	background-image:url(images/search_box.jpg);
+	
 	padding: 1px;
 }
 #search_box h2 {

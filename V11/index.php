@@ -79,7 +79,7 @@
 							 </div>
 							 
 							 <div class="clear">
-							     &nbsq;
+							  
 							 </div>
 						     </div>
 						</div>

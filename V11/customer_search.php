@@ -93,7 +93,7 @@ if(isset($_POST['customerID'])){
 										        </div>
 										 
 										        <div class="clear">
-										          &nbsq;
+										      
 										       </div>
 										</div>
 								<?php } ?>
@@ -115,7 +115,7 @@ if(isset($_POST['customerID'])){
 												</div>
 											</div>
 											<div class="clear">
-											   &nbsq;
+											   
 											</div>
 										</div>
 											<?php } mysql_close($con);?>

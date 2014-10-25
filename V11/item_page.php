@@ -72,7 +72,7 @@ if(isset($_SESSION['customerID'])){
 									</div>
 									</div>
 									<div class="clear">
-									&nbsq;
+									
 									</div>
 				            </div>
 						<?php }elseif($row=mysql_fetch_assoc($result2)){
@@ -100,7 +100,7 @@ if(isset($_SESSION['customerID'])){
 										  </div>
 									 </div>
 									 <div class="clear">
-									     &nbsq;
+									    
 									 </div>
 							</div>
 								<?php }
